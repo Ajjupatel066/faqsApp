@@ -25,7 +25,7 @@ class FaqItem extends Component {
   }
 
   onClickButton = () => {
-    this.prevState(prevState => ({
+    this.setState(prevState => ({
       isActive: !prevState.isActive,
     }))
   }
